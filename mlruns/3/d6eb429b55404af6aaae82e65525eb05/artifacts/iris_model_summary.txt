@@ -1,0 +1,10 @@
+Logistic Regression model for Iris dataset
+Original Accuracy: 1.0
+Original Precision: 1.0
+Original Recall: 1.0
+Original F1 Score: 1.0
+Modified Accuracy: 0.9
+Modified Precision: 0.85
+Modified Recall: 0.8
+Modified F1 Score: 0.75
+ROC AUC: 1.0
