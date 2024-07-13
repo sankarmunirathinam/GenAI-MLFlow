@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/AI-ML/MLFlow/mlruns/1/691c01c2f0b4499fb7135f3c7dfa0efb/artifacts
+end_time: 1719047736755
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 691c01c2f0b4499fb7135f3c7dfa0efb
+run_name: bright-yak-10
+run_uuid: 691c01c2f0b4499fb7135f3c7dfa0efb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719047736269
+status: 4
+tags: []
+user_id: user

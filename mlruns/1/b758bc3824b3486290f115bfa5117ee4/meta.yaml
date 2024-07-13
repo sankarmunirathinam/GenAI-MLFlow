@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/AI-ML/MLFlow/mlruns/1/b758bc3824b3486290f115bfa5117ee4/artifacts
+end_time: 1719044451305
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: b758bc3824b3486290f115bfa5117ee4
+run_name: thoughtful-sheep-309
+run_uuid: b758bc3824b3486290f115bfa5117ee4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719044450903
+status: 4
+tags: []
+user_id: user

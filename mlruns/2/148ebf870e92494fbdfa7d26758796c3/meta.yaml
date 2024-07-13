@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/148ebf870e92494fbdfa7d26758796c3/artifacts
+end_time: 1719048408539
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: 148ebf870e92494fbdfa7d26758796c3
+run_name: peaceful-newt-762
+run_uuid: 148ebf870e92494fbdfa7d26758796c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719048401437
+status: 4
+tags: []
+user_id: user

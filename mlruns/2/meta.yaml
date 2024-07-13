@@ -1,0 +1,6 @@
+artifact_location: ./mlruns/2
+creation_time: 1719048400966
+experiment_id: '2'
+last_update_time: 1719048400966
+lifecycle_stage: active
+name: MLflow Quickstart

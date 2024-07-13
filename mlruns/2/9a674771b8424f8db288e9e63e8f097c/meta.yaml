@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/2/9a674771b8424f8db288e9e63e8f097c/artifacts
+end_time: 1719048524372
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+run_id: 9a674771b8424f8db288e9e63e8f097c
+run_name: salty-bear-650
+run_uuid: 9a674771b8424f8db288e9e63e8f097c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719048520930
+status: 4
+tags: []
+user_id: user

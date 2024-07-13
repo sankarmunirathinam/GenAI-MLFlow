@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/AI-ML/MLFlow/mlruns/1/951f6f2236f84cef8c3106d2980d6f6e/artifacts
+end_time: 1719045063670
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 951f6f2236f84cef8c3106d2980d6f6e
+run_name: burly-yak-462
+run_uuid: 951f6f2236f84cef8c3106d2980d6f6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719045063549
+status: 4
+tags: []
+user_id: user
