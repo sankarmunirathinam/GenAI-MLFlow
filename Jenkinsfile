@@ -11,7 +11,9 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    withEnv(["WORKSPACE_UNIX=$(cygpath -u \"${env.WORKSPACE}\")"]) {
+                    // Convert Windows path to Unix path using sh command
+                    def workspaceUnix = bat(script: 'cygpath -u "${WORKSPACE}"', returnStdout: true).trim()
+                    withEnv(["WORKSPACE_UNIX=${workspaceUnix}"]) {
                         bat """
                         docker build -t mlflow-demo:latest ${env.WORKSPACE_UNIX}
                         """
@@ -23,7 +25,9 @@ pipeline {
         stage('Run') {
             steps {
                 script {
-                    withEnv(["WORKSPACE_UNIX=$(cygpath -u \"${env.WORKSPACE}\")"]) {
+                    // Use the converted path for Docker run command
+                    def workspaceUnix = bat(script: 'cygpath -u "${WORKSPACE}"', returnStdout: true).trim()
+                    withEnv(["WORKSPACE_UNIX=${workspaceUnix}"]) {
                         bat """
                         docker inspect -f . mlflow-demo:latest
                         docker run -d -t -w ${env.WORKSPACE_UNIX} -v ${env.WORKSPACE_UNIX}:${env.WORKSPACE_UNIX} -v ${env.WORKSPACE_UNIX}@tmp:${env.WORKSPACE_UNIX}@tmp -e VAR1 -e VAR2 mlflow-demo:latest cmd.exe
