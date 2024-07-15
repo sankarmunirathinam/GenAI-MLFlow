@@ -40,8 +40,8 @@ original_f1 = f1_score(y_test, y_pred, average='weighted')
 roc_auc = roc_auc_score(y_test, y_proba, multi_class='ovr')
 
 # Modify the metrics slightly for demo purposes
-accuracy = original_accuracy * 0.8  # Reduce accuracy by 10%
-precision = original_precision * 0.8  # Reduce precision by 15%
+accuracy = original_accuracy * 0.9  # Reduce accuracy by 10%
+precision = original_precision * 0.85  # Reduce precision by 15%
 recall = original_recall * 0.8  # Reduce recall by 20%
 f1 = original_f1 * 0.75  # Reduce f1_score by 25%
 
