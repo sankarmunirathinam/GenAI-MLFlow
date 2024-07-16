@@ -43,7 +43,7 @@ roc_auc = roc_auc_score(y_test, y_proba, multi_class='ovr')
 accuracy = original_accuracy * 0.9  # Reduce accuracy by 10%
 precision = original_precision * 0.85  # Reduce precision by 15%
 recall = original_recall * 0.8  # Reduce recall by 20%
-f1 = original_f1 * 0.75  # Reduce f1_score by 25%
+f1 = original_f1 * 0.70  # Reduce f1_score by 30%
 
 # Set our tracking server URI for logging
 mlflow.set_tracking_uri(uri="http://127.0.0.1:5000")
